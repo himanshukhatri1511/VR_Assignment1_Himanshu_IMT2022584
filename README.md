@@ -6,7 +6,7 @@ This repository contains solutions for Computer Vision Assignment 1, which consi
 1. **Coin Detection and Segmentation** – Detecting, segmenting, and counting Indian coins in an image.  
 2. **Image Stitching** – Creating a stitched panorama from multiple overlapping images.  
 
-All implementations are in **Python**, and the report is provided in **LaTeX** format.  
+All implementations are in **Python**.  
 
 ---
 
