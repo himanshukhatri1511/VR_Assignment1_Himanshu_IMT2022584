@@ -50,7 +50,7 @@ Run each script separately from the terminal or command prompt.
 
 ### **1️⃣ Coin Detection and Segmentation**  
 ```bash
-python Q1_CoinDetection.py
+python Q1.py
 ```
 **Expected Outputs:**  
 - `Edge_Detection_Output.jpg` (Edges detected in the coin image)  
@@ -59,7 +59,7 @@ python Q1_CoinDetection.py
 
 ### **2️⃣ Image Stitching (Panorama Creation)**  
 ```bash
-python Q2_ImageStitching.py
+python Q2.py
 ```
 **Expected Outputs:**  
 - `keypoints_image_1.png`, `keypoints_image_2.png`, `keypoints_image_3.png` (Keypoints detected in images)  
