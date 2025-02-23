@@ -14,24 +14,24 @@ All implementations are in **Python**, and the report is provided in **LaTeX** f
 
 ```
 VR_Assignment1_Himanshu_IMT2022584/
-│── unstitchedImages/             # Folder containing images for panorama stitching
-│── coin_image.png                # Input image containing scattered Indian coins
-│── Edge_Detection_Output.jpg     # Output image after edge detection
-│── Segmentation_Output.jpg       # Output image after segmentation
-│── Coin_Detection_Output.jpg     # Final output showing detected and counted coins
-│── input_image_1.jpeg            # First input image for panorama stitching
-│── input_image_2.jpeg            # Second input image for panorama stitching
-│── input_image_3.jpeg            # Third input image for panorama stitching
-│── keypoints_image_1.png         # ORB keypoints detected in first image
-│── keypoints_image_2.png         # ORB keypoints detected in second image
-│── keypoints_image_3.png         # ORB keypoints detected in third image
-│── stitchedOutput.png            # Initial stitched output
-│── stitchedOutputProcessed.png   # Final processed stitched image
-│── Q1_CoinDetection.py           # Python script for coin detection and segmentation
-│── Q2_ImageStitching.py          # Python script for panorama image stitching
-│── README.md                     # Project documentation
-│── report.tex                    # LaTeX report source file
-│── report.pdf                     # Final report in PDF format
+│── Q1/                                         # Folder for Coin Detection and Segmentation
+│   │── Q1.py                                   # Python script for coin detection
+│   │── coin.png                                # Python script for coin detection
+│   │── coin_detection_output.jpg               # Final detected coin image with count
+│   │── edge_detection_output.jpg               # Image after edge detection
+│   │── segmentation_output.jpg                 # Image after segmentation
+│
+│── Q2/                                         # Folder for Image Stitching
+│   │── Q2_ImageStitching.py                    # Python script for image stitching
+│   │── unstitchedImages/                       # Folder containing input images for stitching
+│   │── keypoints_image_1.png                   # ORB keypoints detected in first image
+│   │── keypoints_image_2.png                   # ORB keypoints detected in second image
+│   │── keypoints_image_3.png                   # ORB keypoints detected in third image
+│   │── stitchedOutputProcessed.png             # Final processed stitched image
+│
+│── README.md                                   # Project documentation
+│── VR_Assignment1_Himanshu_IMT2022584.pdf      # Final report in PDF format
+
 ```
 
 ---
@@ -105,15 +105,6 @@ python Q2_ImageStitching.py
 
 ---
 
-## 📎 Submission Checklist  
-✅ **GitHub Repository Name**: `VR_Assignment1_Himanshu_IMT2022584`  
-✅ **Two Python Scripts** (`Q1_CoinDetection.py`, `Q2_ImageStitching.py`)  
-✅ **README File** (This document)  
-✅ **Labeled Visual Outputs** (Edge detection, segmentation, keypoints, stitched image)  
-✅ **Captured Images** in `unstitchedImages/` folder  
-✅ **Executable Code** (Runs without manual intervention, dependencies are listed)  
-
----
 
 ## 🎯 Conclusion  
 This project successfully demonstrates the use of **Computer Vision** techniques for:  
